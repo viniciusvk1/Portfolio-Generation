@@ -1,50 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Portfolio de Vinicius</title>
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/Favicon/iconGen.png"
-    />
-
-    <link rel="stylesheet" href="style/styleHome.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <nav calss="title-page">
-      <h1 id="my-name">Vinicius Portfolio</h1>
-      <h2 id="my-title">I'm a FullStack Developer</h2>
-    </nav>
-    <hr />
+    <ul id="menu">
+      <li><a href="index.html">Pagina Inicial</a></li>
+      <li><a href="contato.html">Contatos</a></li>
+    </ul>
 
-    <nav class="navegador">
-      <ul id="botoes">
-        <li id="home"><a href="index.html">Home</a></li>
-        <li id="about"><a href="">About</a></li>
-        <li id="projects"><a href="">Projects</a></li>
-        <li id="contacts"><a href="contact.html">Contacts</a></li>
-      </ul>
-    </nav>
-    <hr />
-    <main>
-      <h2 id="title-about">About this portfolio:</h2>
-      <p id="p-about">
-        This html and css project is being used as a study tool for my learning
-        during the Generation Brasil bootcamp.
-      </p>
-      <div id="imagem-generation">
+    <h1>Sobre o Vinicius</h1>
+
+    <div class="container">
+      <div class="p-30">
+        <p class="justify">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+          soluta cupiditate architecto animi commodi ipsa aspernatur vel, sunt
+          excepturi nihil saepe veniam et dignissimos veritatis incidunt nulla
+          similique, tempore illo? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Dolorem sequi soluta iure ullam facere. Id eveniet
+          laboriosam expedita deserunt in consequuntur? Corporis cumque
+          perspiciatis itaque. Sunt, illum. Reprehenderit, voluptates est?
+        </p>
+
+        <p class="justify">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ipsum
+          sint, a tenetur corporis consequatur, magnam quia eos sunt quidem
+          autem perspiciatis, fugiat reiciendis cupiditate ab neque error minima
+          itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Reiciendis, sequi. Sed voluptatibus placeat aut, ea omnis laboriosam
+          ut voluptatem dolore! Fugit cum id pariatur autem esse mollitia eaque
+          quisquam accusantium?
+        </p>
+      </div>
+      <div>
         <img
-          src="assets/images/HomeIcons/Logo-Generation-Blue.png"
-          alt="Generation Brasil Logo"
+          class="br-50 wh-300"
+          src="assets/images/fotoPerfil.jfif"
+          alt="Foto do criador desse site"
         />
       </div>
-    </main>
-    <footer>
-      <div>Developed by Vinicius Almeida - 2023 &copy;</div>
-    </footer>
+    </div>
+
+    <h2 class="center">Minha musica favorita</h2>
+    <div class="container mb-50">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-jyMoCaTW_Q"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <hr />
   </body>
+  <footer>
+    <div class="container">
+      <a
+        href="https://www.linkedin.com/in/viniciusalmeida1711/"
+        target="_blank"
+      >
+        <img
+          class="tm-social p-30"
+          src="assets/icons/linkedin.png"
+          alt="Linkedin Profile"
+      /></a>
+
+      <a href="https://github.com/viniciusvk1" target="_blank">
+        <img
+          class="tm-social p-30"
+          src="assets/icons/github.png"
+          alt="Github Profile"
+        />
+      </a>
+    </div>
+
+    <p class="center">Todos os direitos reservados: Vinicius Almeida &copy</p>
+  </footer>
 </html>
